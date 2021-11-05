@@ -1,0 +1,28 @@
+1.area of cylinder
+
+radius=int(input("enter the radius:"))
+height=float(input("enter the height:"))
+pi=3.14
+area =int(pi*radius*radius*height)
+print("area of the cylinder with radius {} and height {} is area {}".format(radius,height,area))
+
+O/P
+enter the radius:2
+enter the height:5
+area of the cylinder with radius 2 and height 5.0 is area 62
+
+
+
+2.Area and circumference of the circle
+
+pi=3.14
+radius=int(input("enter the radius:"))
+area=int(pi*radius*radius)
+circumference=2*pi*radius
+print("area of the circle with radius {} is area {}".format(radius,area))
+print("circumference of the circle with radius {} is circumference {}".format(radius,circumference))
+
+O/P
+enter the radius:12
+area of the circle with radius 12 is area 452
+circumference of the circle with radius 12 is circumference 75.36
