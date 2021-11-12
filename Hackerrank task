@@ -1,0 +1,56 @@
+https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-strings&filters%5Bstatus%5D%5B%5D=solved
+
+SWAPCASE:
+
+def swap_case(s):
+    return s.swapcase()
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+
+
+
+Whats your Name:
+
+def print_full_name(first, last):
+    
+        print("Hello " + first +" " + last + "! You just delved into python.")
+
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
+
+
+Mutation:
+
+def mutate_string(string, position, character):
+    return string[:position] + character + string[position +1: ]
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+    print(s_new)
+
+
+Capitalize:
+
+def solve(s):
+  
+    return s.title()
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = solve(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
+    
+    
+    
