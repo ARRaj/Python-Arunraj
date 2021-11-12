@@ -1,0 +1,92 @@
+November 7:
+
+Task 1:
+
+a = "hello_world_python"
+
+print(a[::3])		hlwlph	
+print(a[::-3])		nt_r_l	
+print(a[2::3])		l_r_tn	
+print(a[3::-3])		lh	
+print(a[:5:-2])		nhy_lo	
+print(a[:5:5])		h	
+print(a[::-1])		nohtyp_dlrow_olleh	
+print(a[::1])		hello_world_python	
+print(a[::5])		h_dh	
+print(a[::-5])		npol	
+
+
+
+Task 2:
+
+"Innovative_minds_python_group"
+
+print(a[-2:0:-1])				uorg_nohtyp_sdnim_evitavonn							
+print(a[5:-5:5])				a_sh							
+print(a[-5:5:-5])				gtde							
+print(a[5:-5:-5])				empty							
+print(a[3:9:-1])				empty							
+print(a[9:-10:-2])				empty							
+print(a[2:-4:-4])				empty							
+print(a[-4:2:-2])				r_otpsnmeiao							
+print(a[0:-1:-3])				empty							
+print(a[-3:3:6])				empty							
+print(a[::-3])				prnt_n_ivn							
+print(a[::-2])				pognhy_di_vtvni							
+print(a[2:-2:-2])				empty							
+print(a[2:-2:2])					nvtv_id_yhngo			
+print(a[5:-5:5])					a_sh			
+print(a[3:-3:3])					oteisyog			
+print(a[::2])					invtv_id_yhngop			
+print(a[::-5])					p_ynvo			
+								
+
+String Task 1:
+
+#identify middle letter of the string
+
+test = input("Enter the string:")
+a=round(len(test)/2)
+test = test[a-1::100]
+print("The Middle Letter is " +test)
+
+
+O/P
+
+Enter the string:cat
+The Middle Letter is a
+
+
+
+String Task 2:
+Get two strings from user & concat with number of letters
+
+a=input("enter 1st string :")
+b=input("enter 2nd string:")
+A=str(len(a))
+B=str(len(b))
+print(a+""+B+""+b+""+A)
+
+O/P
+enter 1st string :arun
+enter 2nd string:raj
+arun3raj4
+
+
+
+
+String Task 3:
+convert middle character to upper case
+
+test = input("enter string:")
+a=len(test)/2 
+b=round(a)
+print(b)
+test = test[0:b-1]+ test[b-1::100].upper()+ test[b:100]
+print(test)
+
+O/P
+enter string:python
+3
+pyThon
+
