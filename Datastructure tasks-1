@@ -1,4 +1,5 @@
 #LIST:
+
 a=[]
 a=a+[5,6,7,8,10]
 a=a+[8,3,4,4,10,9,1,5,6,7,8,1]
@@ -93,4 +94,89 @@ False
 
 
 #Dictionary:
+
+dic={1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+print(dic)
+print(dic[3][0][::2])
+print(dic[3][2][-1:-6:-1])
+print("All keys in tuple format:",tuple(dic.keys()))
+print(sum(dic[2])/2)
+
+
+O/P
+{1: ['english', 'maths', 'science'], 2: [10, 20, 30], 3: ['bio-botany', 'bio-zoology', 'Algebra']}
+bobtn
+arbeg
+All keys in tuple format: (1, 2, 3)
+30.0
+
+//// Task 7:
+
+a = [1,2,3,4,[100,101,102,"Computer_science"],200,203]
+
+print(a[4][3][9:])
+print(a[4][3][0:8])
+
+O/P
+science
+Computer
+
+
+///Task 8:
+
+a = [1,2,3,4,[101,102,103,[201,202,[999]], 666, 777]]
+print(a[4][4])
+print(a[4][3][0])
+print(a[4][1])
+print(a[4][3][2][0])
+print(a[4][5])
+
+
+O/P
+666
+201
+102
+999
+777
+
+
+////#Task 9:
+
+L = [2,3,"python","hello",4,5,0]
+print(L[3][2:4])
+print(L[2][2:])
+
+
+O/P
+ll
+thon
+
+
+//Task 10:
+
+Li1 = [1,2,3,4,5,[11,22,33,44,55,[111,222,333,444],6666,7777],7777]
+print(Li1[5][0])    
+print(Li1[5][6])    
+print(Li1[5][-2])   
+print(Li1[5][7])    
+print(Li1[6])       
+print(Li1[5][5][1]) 
+print(Li1[-2][-1]) 
+print(Li1[2][2:4]) # error (data not found)
+
+
+O/P
+11
+6666
+6666
+7777
+7777
+222
+7777
+Traceback (most recent call last):
+  File "C:\Users\ArunrajS\Desktop\Desktop files\sa.py", line 9, in <module>
+    print(Li1[2][2:4])
+TypeError: 'int' object is not subscriptable
+
+
 
