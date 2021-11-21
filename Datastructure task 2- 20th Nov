@@ -24,9 +24,9 @@ print(a["c"][1])#extract core
 
 a=int(input("enter the num:"))
 if a > -1 :
-    print("the given num is positive") 
+    print(" positive number") 
 else:
-    print("the given num is negative")
+    print("negative number")
 
 
 #collect one number from user, check whether the number is even or odd
@@ -85,5 +85,4 @@ if c[:]==c[::-1]:
     print("the string is a palindrome")
 else:
     print("the string is not a palindrome")
-task 8.txt
-Displaying task 8.txt.
+
