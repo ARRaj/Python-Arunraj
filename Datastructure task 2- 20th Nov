@@ -81,7 +81,7 @@ else:
 #collect one string from user, check whether the string is palindrome or not
 
 c=input("enter the string:")
-if c[:]==c[::-1]:
+if c[0:100]==c[::-1]:
     print("the string is a palindrome")
 else:
     print("the string is not a palindrome")
