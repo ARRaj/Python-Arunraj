@@ -1,0 +1,89 @@
+
+#task 1
+
+d={1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+print(d)
+print("keys in tuple format:",tuple(d.keys()))
+print(d[3][0][::2])#bobtn
+print(d[3][2][-1:-6:-1])#arbeg
+print(sum(d[2])/2)#average
+
+#task 2:
+
+a={"python":[1994,"interpreter","scripting","development",3], "java":[1992,"compiler","scripts","frontend/backend",10],"c":[1980,"core","scripting","Both",20]}
+
+print(a["python"][4])#extract 3
+print(a["python"][0])#Extract 1994
+print(a["java"][3][9:])#extract backend
+print(a["c"][1])#extract core
+
+
+#task 3:
+
+#collect one number from user, check whether the number is positive or negative
+
+a=int(input("enter the num:"))
+if a > -1 :
+    print("the given num is positive") 
+else:
+    print("the given num is negative")
+
+
+#collect one number from user, check whether the number is even or odd
+
+b=int(input("enter the num:"))
+if (b%2)==0:
+    print("the number is even")
+else:
+    print("the number is odd")
+    
+#collect one string from user, check whether the string is palindrome or not
+
+
+#task 1
+
+d={1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+print(d)
+print("keys in tuple format:",tuple(d.keys()))
+print(d[3][0][::2])#bobtn
+print(d[3][2][-1:-6:-1])#arbeg
+print(sum(d[2])/2)#average
+
+#task 2:
+
+a={"python":[1994,"interpreter","scripting","development",3], "java":[1992,"compiler","scripts","frontend/backend",10],"c":[1980,"core","scripting","Both",20]}
+
+print(a["python"][4])#extract 3
+print(a["python"][0])#Extract 1994
+print(a["java"][3][9:])#extract backend
+print(a["c"][1])#extract core
+
+
+#task 3:
+
+#collect one number from user, check whether the number is positive or negative
+
+a=int(input("enter the num:"))
+if a > -1 :
+    print("the given num is positive") 
+else:
+    print("the given num is negative")
+
+
+#collect one number from user, check whether the number is even or odd
+
+b=int(input("enter the num:"))
+if (b%2)==0:
+    print("the number is even")
+else:
+    print("the number is odd")
+    
+#collect one string from user, check whether the string is palindrome or not
+
+c=input("enter the string:")
+if c[:]==c[::-1]:
+    print("the string is a palindrome")
+else:
+    print("the string is not a palindrome")
+task 8.txt
+Displaying task 8.txt.
