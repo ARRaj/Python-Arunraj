@@ -1,4 +1,11 @@
+Task 1:
+collect one number from user, check whether the number is positive or negative
 
+Task2:
+collect one number from user, check whether the number is even or odd
+
+Task3:
+collect one string from user, check whether the string is palindrome or not
 
 Task 4:
 Get one string from user
@@ -32,8 +39,10 @@ if value%2==0:
 else:
     print("odd")
     
-    
-  O/P
+    O/P
+enter the string:arunraj
+110
+even
 
 
 Task6:
@@ -48,6 +57,9 @@ else:
     print("odd")
 
   O/P
+  
+enter the string:arunraj
+odd
 
 
 Task 7:
@@ -90,10 +102,12 @@ else:
 
   O/P
   
+  enter the mark:76
+valid mark
+pass
+C+
   
   
-
-
 Task10:
 #two strings from user
 #mathematics ===> 4 vowels
@@ -104,22 +118,22 @@ Task10:
 a=input("enter string1:")
 b=input("enter string2:")
 value1=a.count('a')+a.count('e')+a.count('i')+a.count('o')+a.count('u')
-print(A)
+print(value1)
 value2=b.count('a')+b.count('e')+b.count('i')+b.count('o')+b.count('u')
-print(B)
+print(value2)
 if value1==value2:
     print("equal count")
 else:
     print("not equal")
     
     
-    
       O/P
-      
-     
-      
-      
-     
+      enter string1:mathematics
+enter string2:science
+4
+3
+not equal
+    
 
 Task11:
 
@@ -136,16 +150,15 @@ aa=int(a[0])
 ab=int(a[1])
 ac=int(a[2])
 x=int(a)
-print(t)
 value=(aa**3)+(ab**3)+(ac**3)
-print(value)
 if(x==value):
     print("armstrong num")
 else:
     print("not an armstrong num")
     
     O/P
-    
+    153
+armstrong num
     
 
 Task12:
@@ -163,7 +176,10 @@ else:
     print("length of list is odd")
 
  O/P
- 
+ 5
+length of list is odd
+
+
 
 Range function Task:
 
