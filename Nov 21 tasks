@@ -130,6 +130,42 @@ else:
 valid mark
 pass
 C+
+
+Task 8:
+#hackerrank Write a function
+
+def is_leap(year):
+    leap = False
+        
+    if year % 4 == 0 and (year % 400 == 0 or year % 100 != 0):
+        leap = True
+    return leap
+    
+  year = int(input())
+
+Task 9:
+#hackerrank Python If-Else
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if n%2!=0:
+        print("Weird")
+    elif n>1 and n<=5:
+        print("Not Weird")
+    elif n>=6 and n<=20:
+        print("Weird")
+    elif n>20:
+         print("Not Weird")
+
+
   
   
 Task10:
