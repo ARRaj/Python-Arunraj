@@ -1,11 +1,35 @@
-Task 1:
-collect one number from user, check whether the number is positive or negative
+Task 1
+#collect one number from user, check whether the number is positive or negative
 
-Task2:
-collect one number from user, check whether the number is even or odd
+a=int(input("enter the num:"))
+if a > -1 :
+    print("the given num is positive") 
+else:
+    print("the given num is negative")
 
-Task3:
-collect one string from user, check whether the string is palindrome or not
+
+
+Task 2
+#collect one number from user, check whether the number is even or odd
+
+b=int(input("enter the num:"))
+if (b%2)==0:
+    print("the number is even")
+else:
+    print("the number is odd")
+    
+    
+   Task 3
+    
+#collect one string from user, check whether the string is palindrome or not
+
+c=input("enter the string:")
+if c[0:100]==c[::-1]:
+    print("the string is a palindrome")
+else:
+    print("the string is not a palindrome")
+
+
 
 Task 4:
 Get one string from user
