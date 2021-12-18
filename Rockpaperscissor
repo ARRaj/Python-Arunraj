@@ -1,15 +1,15 @@
 import random
 def game(): 
     Li1 = ["rock","paper","scissor"]
-    sys_input=random.choice(Li1)
-    user_input=input("enter ur choice: ")
-    print("system's choice:",sys_input)
+    computer=random.choice(Li1)
+    user=input("enter ur choice: ")
+    print("system's choice:",computer)
    
-    if (sys_input == user_input):
+    if (computer == user):
         print("TIE") 
         return "t"
-    elif sys_input =="rock":
-        if user_input=="scissor":
+    elif computer =="rock":
+        if user=="scissor":
             print("Computer wins") 
             
             return "c"
@@ -17,16 +17,16 @@ def game():
             print("User wins") 
             
             return "d"
-    elif sys_input=="paper":
-        if user_input=="rock":
+    elif computer=="paper":
+        if user=="rock":
             print("Computer wins") 
             return "c"
         else:
             print("User wins") 
             
             return "d"
-    elif sys_input=="scissor":
-        if user_input=="paper":
+    elif computer=="scissor":
+        if user=="paper":
             print("Computer wins") 
             
             return "c"
@@ -55,8 +55,18 @@ print("user score :",d)
 print("no. of tie : ",t)
 if(c>d):
     print("COMPUTER WINS")
-else:
+elif(c<d):
     print("USER WINS")
+else:
+    print("TIE ")
+
+
+
+
+
+  
+
+
 
 
 
