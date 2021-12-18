@@ -1,0 +1,81 @@
+import random
+def game(): 
+    Li1 = ["rock","paper","scissor"]
+    sys_input=random.choice(Li1)
+    user_input=input("enter ur choice: ")
+    print("system's choice:",sys_input)
+   
+    if (sys_input == user_input):
+        print("TIE") 
+        return "t"
+    elif sys_input =="rock":
+        if user_input=="scissor":
+            print("Computer wins") 
+            
+            return "c"
+        else :
+            print("User wins") 
+            
+            return "d"
+    elif sys_input=="paper":
+        if user_input=="rock":
+            print("Computer wins") 
+            return "c"
+        else:
+            print("User wins") 
+            
+            return "d"
+    elif sys_input=="scissor":
+        if user_input=="paper":
+            print("Computer wins") 
+            
+            return "c"
+        else:
+           print("User wins") 
+           
+           return "d"
+
+
+n=int(input("Number of games you want to play ? : "))
+c=0
+d=0
+t=0
+
+for i in range(n):
+    e=game()
+    if e=="c":
+     c=c+1
+    elif e=="d":
+     d=d+1
+    elif e=="t":
+     t=t+1
+
+print("computer score : ",c)
+print("user score :",d)
+print("no. of tie : ",t)
+if(c>d):
+    print("COMPUTER WINS")
+else:
+    print("USER WINS")
+
+
+
+
+O/P
+
+Number of games you want to play ? : 3
+enter ur choice: rock
+system's choice: scissor
+User wins
+enter ur choice: rock   
+system's choice: scissor
+User wins
+enter ur choice: rock   
+system's choice: paper
+Computer wins
+computer score :  1   
+user score : 2        
+no. of tie :  0       
+USER WINS
+  
+
